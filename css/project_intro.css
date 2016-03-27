@@ -1,0 +1,120 @@
+body {
+    font-family: "微软雅黑", "Arial";
+    padding: 20px 0;
+}
+
+.border {
+    border: 1px solid #ededed;
+}
+
+/*左侧服务介绍部分的样式*/
+.main {
+    padding-right: 20px;
+    /*border: 1px solid #ededed;*/
+    border-right: none;
+}
+
+.main hr {
+    width: 100%;
+    height: 1px;
+    background-color: #cc3333;
+    margin-top: 15px;
+}
+
+.main strong {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.main p {
+    text-indent: 2em;
+    margin-bottom: 30px;
+}
+
+/*右侧侧边栏的样式*/
+.side {
+    border-left: 1px solid #ededed;
+}
+
+.side .company img {
+    display: block;
+    margin: 0 auto;
+}
+
+.side .company p {
+    text-align: center;
+}
+
+/*右侧灰色背景的标题样式*/
+.tab-title {
+    height: 46px;
+    background-color: #fafafa;
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    /*border-left: 2px solid #cc3333;*/
+    /*margin-left: -1px;防止标题左边框与外部的边框重叠*/
+    padding-left: 15px;
+    font-size: 18px;
+    line-height: 46px;
+    color: #666;
+    position: relative;
+}
+
+.tab-title .border-left {
+    position: absolute;
+    left: -1px;
+    top: -1px;
+    height: 46px;
+    border-left: 2px solid #cc3333;
+}
+
+/*联系方式*/
+.contact {
+    list-style: none;
+    padding-left: 15px;
+}
+
+.contact li {
+    font-size: 18px;
+    width: 100%;
+    padding-left: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contact .tel {
+    background: url("../images/contact-icon.png") 0 5px no-repeat;
+}
+
+.contact .fax {
+    background: url("../images/contact-icon.png") 0 -45px no-repeat;
+}
+
+.contact .site {
+    background: url("../images/contact-icon.png") 0 -95px no-repeat;
+}
+
+.contact .fax strong,
+.contact .site strong {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.contact strong {
+    color: #cc3333;
+}
+
+/*公司介绍*/
+.company-info {
+    padding: 15px;
+}
+
+.company-info p {
+    font-size: 12px;
+    text-indent: 2em;
+}
+
+.company-info hr {
+    margin: 15px auto;
+    color: #eee;
+}
